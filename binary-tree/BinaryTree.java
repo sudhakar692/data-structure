@@ -1,14 +1,3 @@
-class Node {
-    int key;
-    Node left, right;
-
-    public Node(int item) {
-        key=item;
-        left = right = null;
-    }
-}
-
-
 class BinaryTree {
     Node root;
 
@@ -30,6 +19,7 @@ class BinaryTree {
 
         tree.root.left.left = new Node(4);
         tree.root.left.right = new Node(5);
+        System.out.println(tree.root.key);
 
     }
 }
